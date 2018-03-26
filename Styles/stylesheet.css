@@ -1,0 +1,73 @@
+body {
+	font-size: 100%;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	background-image: url(images/joker);
+	color: white;
+	
+}
+header { 
+	text-align: center;
+}
+
+ 
+
+footer {
+		text-align: center;
+		font-size: 125%;
+		color: Lightblue;
+}
+
+h3 { 
+	text-align: center;
+	font-size: 150%;
+}
+
+#copyright { /* id selector */
+	text-align: center;
+}
+
+main li { /* descendant selector */
+	font-size: 125%;
+	list-style-type: square;
+}
+
+h1, h2{ /* multiple selector */
+	color: Red;
+}
+/*
+	asdhfkjhdfk
+}*/
+
+h1+img { /* sibling selector */
+	margin-top: .5em;
+}
+
+main>p { /* child selector */
+	font-size: 125%;
+}
+
+.large { /* class selector */
+	font-size: 200%;
+}
+
+a:link { /* psuedo selector */
+	color: white;
+	font-size: 200%;
+
+}
+
+a:hover, a:focus { /* psuedo selector */
+	color: red;
+	
+}
+
+iframe { 
+	padding-left: 15em;
+} 
+
+main img {
+	padding-left: 15em;
+}
+
+	
